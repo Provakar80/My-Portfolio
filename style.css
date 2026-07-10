@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/* common button */
+.common-btn{
+    background-color: #FD6E0A;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.outline-btn{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    cursor: pointer;
+
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav{
+    background-color: #efe5e5;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 8px 0px;
+
+    
+}
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.logo-va{
+    color: #FD6E0A;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+/* Hero Section */
+
+
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0px;
+    background-color: #f0e3ce;
+}
+.hero-parent-root{
+    background-color: #f0e3ce;
+}
+.hero-left-p1{
+    font-size: 28px;
+    font-weight: 600;
+}
+.hero-left h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.hero-left-btn-parent{
+    margin-top: 12px;
+}
+/* About Section */
+.about-parent{
+    background-color: #f0e3ce;
+    margin: 70px auto;
+    padding: 35px;
+    border-radius: 12px;
+    text-align: center;4
+}
+.about-parent p
+    margin: 10x 0px;
+}
+.about-info-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;px;
+}
+.about-info-parent .box{
+    background-color: rgb(168, 164, 164);
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1;
+}
+
+/* What I Do Section */
+.what-i-do-parent{
+    margin: 60px;
+    text-align: center;
+}
+.what-i-do-card-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.what-i-do-card-containe .what-i-do-card{
+    border: 2px solid #FD6E0A;
+    padding: 8px;
+    border-radius: 12px;
+    text-align: left;
+}
+
